@@ -1,0 +1,87 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aquamarine;
+  max-width: 100%;
+  /* rimuovere heigt */
+  height: 90px;
+}
+
+.container {
+ margin: 0 auto;
+ /* rimuovere height */
+ height: 70px;
+ max-width: 900px;
+ background-color:rgb(37, 112, 178) ;
+}
+
+.d-flex {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+header .navbar .row{
+ align-items: center;
+ justify-content: space-around;
+ color: white;
+ /* da non rimuovere height altirmenti la scritta si sposta sopra */
+ height: 100%;
+}
+
+header .navbar ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border-radius: 40%;
+  padding: 6px 8px;
+  font-size: 12px;
+  border-color: white;
+}
+
+/* secondo container, sotto header */
+.background-2 {
+  background-color: burlywood;
+}
+
+.blue {
+  background-color: cadetblue;
+  /* da rimuovere altezza */
+  min-height: 200px;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding: 17px;
+  color:white
+}
+
+.p1 {
+  color:white;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.mac , .discord {
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
