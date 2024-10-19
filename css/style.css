@@ -35,7 +35,7 @@ header .navbar .row{
  height: 100%;
 }
 
-header .navbar ul li a {
+ ul li a {
   text-decoration: none;
   color: white;
   margin: 0 10px;
@@ -85,3 +85,111 @@ header .navbar ul li a {
   margin-left: 10px;
 }
 
+/* terzo container */
+
+.background-white {
+  background-color: white;
+  /* da rimuovere */
+  min-height: 200px;
+}
+
+.white {
+  background-color: white;
+}
+
+.col-img {
+  background-color: rgb(199, 122, 199);
+  width: 60%;
+  /* da rimuovere */
+  min-height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col-text {
+  background-color: rgb(116, 58, 103);
+  width: 40%;
+  /* da rimuovere */
+  min-height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* quarto container */
+.background-gray {
+  background-color: rgb(246,247,247);
+ /* da rimuovere */ 
+ min-height: 200px;
+}
+
+.gray {
+  background-color:rgb(246,247,247);
+}
+
+.col-text-gray {
+  background-color: rgb(116, 58, 103);
+  width: 60%;
+  /* da rimuovere */
+  min-height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col-img-gray {
+  background-color: rgb(199, 122, 199);
+  width: 60%;
+  /* da rimuovere */
+  min-height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col-tot{
+  background-color: rgb(129, 129, 195);
+  width: 100%;
+  /* da rimuovere */
+  min-height: 100px;
+}
+  
+/* ultimo container */
+.background-black{
+  background-color: black;
+  min-height: 300px;
+}
+
+.black {
+  flex-direction: column;
+}
+
+.end {
+  justify-content: space-around;
+  justify-content: center;
+}
+
+.col-pos {
+  width: 40%;
+  height: 300px;
+  border:dashed black;
+  background-color: aqua;
+}
+
+.col-end {
+  width: 15%;
+  height: 300px;
+  border:dashed black;
+  background-color:aquamarine;
+}
+
+.final {
+ min-height: 20px;
+}
+
+.end-c{
+  background-color: rgb(215, 132, 132);
+}
+
+
+.final-{
+  justify-content: space-between;
+
+}
